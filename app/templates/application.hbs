@@ -1,8 +1,8 @@
-<div class="container">
-  <div class="menu">
-    {{#link-to "index"}}
+<div class="menu">
+    <div class="container content-container">
+      {{#link-to "index"}}
       <h1>
-        <em>SuperRentals</em>
+        <em>Pixels n' Rentals</em>
       </h1>
     {{/link-to}}
     <div class="links">
@@ -13,8 +13,15 @@
         Contact
       {{/link-to}}
     </div>
+    </div>
   </div>
+<div class="container">
   <div class="body">
     {{outlet}}
+  </div>
+</div>
+<div class="footer">
+  <div class="container content-container">
+    Created in Ember by <a href="https://pixelsnprojects.com">Pixels n' Projects</a>
   </div>
 </div>

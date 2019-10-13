@@ -1,0 +1,25 @@
+.content-container {
+      background: none;
+      min-height: 0;
+}
+.menu,
+.footer {
+      background-color: #05526A;
+}
+.main-banner {
+      background: url('/assets/images/rental-app-banner.jpg');
+      text-align: center;
+}
+.jumbo-inner {
+      background: rgba(255,255,255,0.7);
+      margin: 0 auto;
+      max-width: 50%;
+      padding: 35px 20px;
+}
+.leaflet-bottom {
+      display: none;
+}
+.footer {
+      color: #fff;
+      padding: 10px 0;
+}
