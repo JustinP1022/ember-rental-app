@@ -1,4 +1,4 @@
-# super-rentals
+# Pixels n' Rentals
 
 This is a small project to get the hang of Ember and Handlebars.
 
